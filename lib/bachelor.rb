@@ -41,20 +41,30 @@ counter
 end
 
 def get_occupation(data, hometown)
+<<<<<<< HEAD
 array2 =[]
+=======
+>>>>>>> 347229509ef884b6ffa22d5d49bbc17aad37edf0
 has = {}
   data.each do |season, season_deets|
   season_deets.each do |hashes|
   hashes.each do |k,v|
       if v == hometown
         has = hashes
+<<<<<<< HEAD
         array2 << has
+=======
+>>>>>>> 347229509ef884b6ffa22d5d49bbc17aad37edf0
   end
   end
   end
 end
+<<<<<<< HEAD
 #has["occupation"]
 array2[0]["occupation"]
+=======
+has["occupation"]
+>>>>>>> 347229509ef884b6ffa22d5d49bbc17aad37edf0
 end
 
 def get_average_age_for_season(data, season)
